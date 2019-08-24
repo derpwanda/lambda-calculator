@@ -7,7 +7,7 @@ import { numbers } from "../../../data";
 
 export const Numbers = props => {
     // STEP 2 - add the imported data to state
-    console.log(numbers);
+    console.log("Numbers", numbers);
     const [buttonNums, setButtonNums] = useState(numbers);
     return (
         <div>
